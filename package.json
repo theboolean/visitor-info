@@ -2,7 +2,7 @@
   "name": "visitor-info",
   "version": "0.0.0",
   "description": "Gather information about user",
-  "main": "dist/bundle.umd.js",
+  "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "repository": "https://github.com/theboolean/visitor-info",
   "author": "Lorenzo Cesana",
