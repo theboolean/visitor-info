@@ -8,6 +8,14 @@
   "author": "Lorenzo Cesana",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "browser",
+    "os",
+    "timezone",
+    "user-agent",
+    "country",
+    "visitor"
+  ],
   "scripts": {
     "build": "rollup -c",
     "commitmsg": "commitlint -e $GIT_PARAMS",
