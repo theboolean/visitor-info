@@ -11,19 +11,19 @@ const getCountryCode = () =>
 const getCountry = () =>
   country || callingCountries.all.find(item => item.alpha2 === getCountryCode())
 
-const getBrowser = () =>
-  browser || new UAParser(navigator.userAgent).getBrowser()
+const getResults = () =>
+  results || new UAParser(navigator.userAgent).getResults()
 
 const timezone = getTimezone()
 const countryCode = getCountryCode()
 const country = getCountry()
-const browser = getBrowser()
+const results = getResults()
 
 const visitorInfo = () => {
   return {
     timezone: getTimezone(),
     country: getCountry(),
-    browser: getBrowser()
+    ...results
   }
 }
 
