@@ -3,24 +3,21 @@ import momentTz from 'moment-timezone'
 import { zones } from 'moment-timezone/data/meta/latest.json'
 import UAParser from 'ua-parser-js'
 
-const getTimezone = () => {
-  return momentTz.tz.guess()
-}
+const getTimezone = () => timezone || momentTz.tz.zone(momentTz.tz.guess())
 
-const getCountryCode = () => {
-  const timezoneName = getTimezone()
-  return zones[timezoneName] && zones[timezoneName].countries[0]
-}
+const getCountryCode = () =>
+  countryCode || (zones[timezone.name] && zones[timezone.name].countries[0])
 
-const getCountry = () => {
-  return callingCountries.all.find(item => item.alpha2 === getCountryCode())
-}
+const getCountry = () =>
+  country || callingCountries.all.find(item => item.alpha2 === getCountryCode())
 
-const getBrowser = () => {
-  const uaParser = new UAParser()
-  uaParser.setUA(navigator.userAgent)
-  return uaParser.getBrowser()
-}
+const getBrowser = () =>
+  browser || new UAParser(navigator.userAgent).getBrowser()
+
+const timezone = getTimezone()
+const countryCode = getCountryCode()
+const country = getCountry()
+const browser = getBrowser()
 
 const visitorInfo = () => {
   return {
