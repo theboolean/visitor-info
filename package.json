@@ -1,0 +1,38 @@
+{
+  "name": "visitor-info",
+  "version": "0.0.0",
+  "description": "Gather information about user",
+  "main": "dist/bundle.umd.js",
+  "module": "dist/bundle.esm.js",
+  "repository": "https://github.com/theboolean/visitor-info",
+  "author": "Lorenzo Cesana",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ext .js ./src/",
+    "test": "run-p lint test:*",
+    "test:code-duplication": "jsinspect ./src/",
+    "test:last-commit-message": "commitlint --from=HEAD~1",
+    "test:vulnerabilities": "auditjs -l error"
+  },
+  "dependencies": {
+    "country-data": "^0.0.31",
+    "moment-timezone": "^0.5.21",
+    "ua-parser-js": "^0.7.18"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "auditjs": "^2.4.3",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jsinspect": "^0.12.7",
+    "npm-run-all": "^4.1.3"
+  }
+}
