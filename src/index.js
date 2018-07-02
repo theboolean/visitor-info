@@ -3,7 +3,7 @@ import momentTz from 'moment-timezone'
 import { zones } from 'moment-timezone/data/meta/latest.json'
 import UAParser from 'ua-parser-js'
 
-let timezone, countryCode, country, results
+let timezone, countryCode, country, results // eslint-disable-line prefer-const
 
 const getTimezone = () => timezone || momentTz.tz.zone(momentTz.tz.guess())
 
