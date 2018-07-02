@@ -29,4 +29,4 @@ const visitorInfo = () => {
   }
 }
 
-export { visitorInfo }
+export default visitorInfo
