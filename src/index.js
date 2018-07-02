@@ -13,8 +13,7 @@ const getCountryCode = () =>
 const getCountry = () =>
   country || callingCountries.all.find(item => item.alpha2 === getCountryCode())
 
-const getResult = () =>
-  results || new UAParser(navigator.userAgent).getResult()
+const getResult = () => results || new UAParser(navigator.userAgent).getResult()
 
 timezone = getTimezone()
 countryCode = getCountryCode()
