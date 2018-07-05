@@ -21,22 +21,35 @@ var _extends = Object.assign || function (target) {
   return target;
 };
 
-let timezone, countryCode, country, results; // eslint-disable-line prefer-const
+var timezone = void 0,
+    countryCode = void 0,
+    country = void 0,
+    results = void 0; // eslint-disable-line prefer-const
 
-const getTimezone = () => timezone || momentTz.tz.zone(momentTz.tz.guess());
+var getTimezone = function getTimezone() {
+  return timezone || momentTz.tz.zone(momentTz.tz.guess());
+};
 
-const getCountryCode = () => countryCode || latest_json.zones[timezone.name] && latest_json.zones[timezone.name].countries[0];
+var getCountryCode = function getCountryCode() {
+  return countryCode || latest_json.zones[timezone.name] && latest_json.zones[timezone.name].countries[0];
+};
 
-const getCountry = () => country || countryData.callingCountries.all.find(item => item.alpha2 === getCountryCode());
+var getCountry = function getCountry() {
+  return country || countryData.callingCountries.all.find(function (item) {
+    return item.alpha2 === getCountryCode();
+  });
+};
 
-const getResult = () => results || new UAParser(navigator.userAgent).getResult();
+var getResult = function getResult() {
+  return results || new UAParser(navigator.userAgent).getResult();
+};
 
 timezone = getTimezone();
 countryCode = getCountryCode();
 country = getCountry();
 results = getResult();
 
-const visitorInfo = () => {
+var visitorInfo = function visitorInfo() {
   return _extends({
     timezone: getTimezone(),
     country: getCountry()

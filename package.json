@@ -1,6 +1,6 @@
 {
   "name": "visitor-info",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gather information about user",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
