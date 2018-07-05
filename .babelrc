@@ -1,0 +1,28 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "ie >= 9",
+            "chrome >= 49",
+            "opera >= 49",
+            "edge >= 12",
+            "firefox >= 39",
+            "safari >= 9",
+            "ios >= 9",
+            "android >= 4.4"
+          ]
+        },
+        "modules": false
+      }
+    ],
+    "stage-1"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "external-helpers"
+  ]
+}
