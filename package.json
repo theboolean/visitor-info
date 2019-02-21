@@ -22,8 +22,7 @@
     "lint": "eslint --ignore-path .gitignore --ext .js ./src/",
     "test": "run-p lint test:*",
     "test:code-duplication": "jsinspect ./src/",
-    "test:last-commit-message": "commitlint --from=HEAD~1",
-    "test:vulnerabilities": "auditjs -l error"
+    "test:last-commit-message": "commitlint --from=HEAD~1"
   },
   "dependencies": {
     "country-data": "^0.0.31",
@@ -33,7 +32,6 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
-    "auditjs": "^3.0.10",
     "babel-core": "^6.26.3",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
