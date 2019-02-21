@@ -26,11 +26,7 @@ export default {
       include: 'node_modules/**'
     }),
     babel({
-      exclude: 'node_modules/**',
-      plugins: [
-        'external-helpers',
-        'transform-object-rest-spread'
-      ]
+      exclude: 'node_modules/**'
     })
   ]
 }
