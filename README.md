@@ -35,3 +35,25 @@ Result:
 */
 
 ```
+
+or with require:
+
+```js
+var visitorInfo = require('visitor-info')
+
+console.log(visitorInfo())
+
+/*
+Result:
+{
+  browser: {...}
+  country: {...}
+  cpu: {...}
+  device: {...}
+  engine: {...}
+  os: {...}
+  ua: "..."
+}
+*/
+
+```
