@@ -1,6 +1,6 @@
 # visitor-info
 
-[![Build Status](https://travis-ci.org/theboolean/visitor-info.svg?branch=master)](https://travis-ci.org/theboolean/visitor-info) [![Greenkeeper badge](https://badges.greenkeeper.io/theboolean/visitor-info.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/theboolean/visitor-info.svg?branch=master)](https://travis-ci.org/theboolean/visitor-info)
 
 Tiny library that wraps other modules useful to gather information about a visitor in Javascript, such as `browser`, `timezone`, `country`, `OS`, etc...
 
