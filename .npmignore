@@ -1,0 +1,7 @@
+node_modules
+src
+LICENSE
+.*
+*.config.js
+*.lock
+*.md
