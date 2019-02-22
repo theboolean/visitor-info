@@ -1,4 +1,21 @@
-# [0.2.0](https://github.com/theboolean/visitor-info/compare/v0.1.1...v0.2.0) (2019-02-22)
+## [0.2.1](https://github.com/theboolean/visitor-info/compare/v0.2.0...v0.2.1) (2019-02-22)
+
+
+### build
+
+* add .npmignore ([6260d6567f5ab970396930a602ccf8e0e74c3fda](https://github.com/theboolean/visitor-info/commit/6260d6567f5ab970396930a602ccf8e0e74c3fda))
+
+### chore
+
+* add changelog creation script ([5c627ab81c1bbab17906a417b0dded64d65d3727](https://github.com/theboolean/visitor-info/commit/5c627ab81c1bbab17906a417b0dded64d65d3727))
+* update gitignore and npmignore ([bbee496c1409b5dfc583240a22a3ef66a57f3103](https://github.com/theboolean/visitor-info/commit/bbee496c1409b5dfc583240a22a3ef66a57f3103))
+
+### docs
+
+* add changelog ([fdb14d47dcbcb79516b644a77815ab55718cb199](https://github.com/theboolean/visitor-info/commit/fdb14d47dcbcb79516b644a77815ab55718cb199))
+
+
+# [0.2.0](https://github.com/theboolean/visitor-info/compare/v0.1.0...v0.2.0) (2019-02-22)
 
 
 ### build
