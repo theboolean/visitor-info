@@ -1,6 +1,6 @@
 # visitor-info
 
-[![Build Status](https://travis-ci.org/theboolean/visitor-info.svg?branch=master)](https://travis-ci.org/theboolean/visitor-info) [![Greenkeeper badge](https://badges.greenkeeper.io/theboolean/visitor-info.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/theboolean/visitor-info.svg?branch=master)](https://travis-ci.org/theboolean/visitor-info)
 
 Tiny library that wraps other modules useful to gather information about a visitor in Javascript, such as `browser`, `timezone`, `country`, `OS`, etc...
 
@@ -18,6 +18,28 @@ Import it in your project as an ES6 module:
 
 ```js
 import visitorInfo from 'visitor-info'
+
+console.log(visitorInfo())
+
+/*
+Result:
+{
+  browser: {...}
+  country: {...}
+  cpu: {...}
+  device: {...}
+  engine: {...}
+  os: {...}
+  ua: "..."
+}
+*/
+
+```
+
+or with require:
+
+```js
+var visitorInfo = require('visitor-info')
 
 console.log(visitorInfo())
 

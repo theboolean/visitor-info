@@ -3,24 +3,41 @@ import momentTz from 'moment-timezone';
 import { zones } from 'moment-timezone/data/meta/latest.json';
 import UAParser from 'ua-parser-js';
 
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
 
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
+  return obj;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+    var ownKeys = Object.keys(source);
+
+    if (typeof Object.getOwnPropertySymbols === 'function') {
+      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
+      }));
     }
+
+    ownKeys.forEach(function (key) {
+      _defineProperty(target, key, source[key]);
+    });
   }
 
   return target;
-};
+}
 
-var timezone = void 0,
-    countryCode = void 0,
-    country = void 0,
-    results = void 0; // eslint-disable-line prefer-const
+var timezone, countryCode, country, results; // eslint-disable-line prefer-const
 
 var getTimezone = function getTimezone() {
   return timezone || momentTz.tz.zone(momentTz.tz.guess());
@@ -46,7 +63,7 @@ country = getCountry();
 results = getResult();
 
 var visitorInfo = function visitorInfo() {
-  return _extends({
+  return _objectSpread({
     timezone: getTimezone(),
     country: getCountry()
   }, results);

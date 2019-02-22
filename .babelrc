@@ -1,7 +1,7 @@
 {
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
         "targets": {
           "browsers": [
@@ -17,12 +17,9 @@
         },
         "modules": false
       }
-    ],
-    "stage-1"
+    ]
   ],
   "plugins": [
-    "transform-class-properties",
-    "transform-object-rest-spread",
-    "external-helpers"
+    "@babel/plugin-proposal-object-rest-spread"
   ]
 }
