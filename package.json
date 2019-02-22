@@ -8,6 +8,7 @@
   "author": "Lorenzo Cesana",
   "license": "MIT",
   "private": false,
+  "sideEffects": false,
   "keywords": [
     "browser",
     "os",
