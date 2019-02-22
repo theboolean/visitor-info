@@ -4,4 +4,5 @@ LICENSE
 .*
 *.config.js
 *.lock
+*.log
 *.md
