@@ -1,3 +1,15 @@
+## [0.2.2](https://github.com/theboolean/visitor-info/compare/v0.2.1...v0.2.2) (2019-07-11)
+
+
+### chore
+
+* update dependencies to latest minor and patch versions available ([4466f562a174b22103d0a08c2edddbd4f647dcc3](https://github.com/theboolean/visitor-info/commit/4466f562a174b22103d0a08c2edddbd4f647dcc3))
+* update npmignore ([9a7903debb0bf726d12fe4e3fc43100bacaabe66](https://github.com/theboolean/visitor-info/commit/9a7903debb0bf726d12fe4e3fc43100bacaabe66))
+* upgrade all dependencies to latest available version ([7a044fab99bf1f9be04278f9c101a8de9ae88372](https://github.com/theboolean/visitor-info/commit/7a044fab99bf1f9be04278f9c101a8de9ae88372))
+* upgrade eslint and husky ([7e68cb8b3e4158ff4ec908946f0ccc0aee52dd32](https://github.com/theboolean/visitor-info/commit/7e68cb8b3e4158ff4ec908946f0ccc0aee52dd32))
+
+
+
 ## [0.2.1](https://github.com/theboolean/visitor-info/compare/v0.2.0...v0.2.1) (2019-02-22)
 
 
