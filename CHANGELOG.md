@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/theboolean/visitor-info/compare/v0.2.2...v0.2.3) (2019-08-27)
+
+
+### chore
+
+* upgrade all dependencies ([fc00b529bfe6d5d0c5b4f70eb830e1e5364c86b2](https://github.com/theboolean/visitor-info/commit/fc00b529bfe6d5d0c5b4f70eb830e1e5364c86b2))
+
+
+
 ## [0.2.2](https://github.com/theboolean/visitor-info/compare/v0.2.1...v0.2.2) (2019-07-11)
 
 
