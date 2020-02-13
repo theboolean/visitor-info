@@ -1,3 +1,16 @@
+## [0.2.4](https://github.com/theboolean/visitor-info/compare/v0.2.3...v0.2.4) (2020-02-13)
+
+
+### chore
+
+* add vulnerability audit to test suite ([1a434c5](https://github.com/theboolean/visitor-info/commit/1a434c52d40a68123247648c461ccc1134b9021e))
+* run tests also in Node 12 ([a26b80b](https://github.com/theboolean/visitor-info/commit/a26b80b2d6a868867f39cd7e425e2172b081d141))
+* update eslint plugin ([b6a3ce0](https://github.com/theboolean/visitor-info/commit/b6a3ce0f070ef5ef7eed3b037efbbf5f8e062d76))
+* upgrade all transitional dependencies ([353c1f4](https://github.com/theboolean/visitor-info/commit/353c1f4ac7a858ed731cde3dd9a61cb34e43f9ba))
+* upgrade husky ([eed0e35](https://github.com/theboolean/visitor-info/commit/eed0e35dd53efc2ef14c7a2109155640e886661c))
+
+
+
 ## [0.2.3](https://github.com/theboolean/visitor-info/compare/v0.2.2...v0.2.3) (2019-08-27)
 
 
