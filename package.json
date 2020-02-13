@@ -9,6 +9,10 @@
   "license": "MIT",
   "private": false,
   "sideEffects": false,
+  "engines": {
+    "node": "^10.13.0 || ^12.0.0",
+    "yarn": "^1.16.0"
+  },
   "keywords": [
     "browser",
     "os",
@@ -22,6 +26,7 @@
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s",
     "lint": "eslint --ignore-path .gitignore --ext .js ./src/",
     "test": "run-p lint test:*",
+    "test:audit": "yarn audit",
     "test:code-duplication": "jsinspect ./src/",
     "test:last-commit-message": "commitlint --from=HEAD~1"
   },
