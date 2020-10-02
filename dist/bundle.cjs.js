@@ -1,11 +1,14 @@
 'use strict';
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
 var countryData = require('country-data');
-var momentTz = _interopDefault(require('moment-timezone'));
+var momentTz = require('moment-timezone');
 var latest_json = require('moment-timezone/data/meta/latest.json');
-var UAParser = _interopDefault(require('ua-parser-js'));
+var UAParser = require('ua-parser-js');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var momentTz__default = /*#__PURE__*/_interopDefaultLegacy(momentTz);
+var UAParser__default = /*#__PURE__*/_interopDefaultLegacy(UAParser);
 
 function _defineProperty(obj, key, value) {
   if (key in obj) {
@@ -59,7 +62,7 @@ function _objectSpread2(target) {
 var timezone, countryCode, country, results; // eslint-disable-line prefer-const
 
 var getTimezone = function getTimezone() {
-  return timezone || momentTz.tz.zone(momentTz.tz.guess());
+  return timezone || momentTz__default['default'].tz.zone(momentTz__default['default'].tz.guess());
 };
 
 var getCountryCode = function getCountryCode() {
@@ -73,7 +76,7 @@ var getCountry = function getCountry() {
 };
 
 var getResult = function getResult() {
-  return results || new UAParser(navigator.userAgent).getResult();
+  return results || new UAParser__default['default'](navigator.userAgent).getResult();
 };
 
 timezone = getTimezone();

@@ -1,3 +1,17 @@
+# [0.3.0](https://github.com/theboolean/visitor-info/compare/v0.2.4...v0.3.0) (2020-10-02)
+
+
+### chore
+
+* fix typo ([ddbe46b](https://github.com/theboolean/visitor-info/commit/ddbe46bd64282e68ec73a3231c2dad0cd063a809))
+* update rollup to v2 ([5dec58b](https://github.com/theboolean/visitor-info/commit/5dec58bbed4ca267bb2d1a1cc6001ad47036bc63))
+* upgrade all transitional dependencies ([ce7dc4a](https://github.com/theboolean/visitor-info/commit/ce7dc4a49f6eb47832dad1813f4a02321cd51415))
+* upgrade commitlint ([8cfa925](https://github.com/theboolean/visitor-info/commit/8cfa925096515e28dae1802f7e1eb516076e3fc4))
+* upgrade eslint (v6 --> v7) ([025bf60](https://github.com/theboolean/visitor-info/commit/025bf605464e59b773e94b01b86bed7cc15c224f))
+* upgrade rollup plugins and all transitional deps ([296d3fa](https://github.com/theboolean/visitor-info/commit/296d3fad19a2be9fca8a1b122b9e41defabddb7e))
+
+
+
 ## [0.2.4](https://github.com/theboolean/visitor-info/compare/v0.2.3...v0.2.4) (2020-02-13)
 
 
