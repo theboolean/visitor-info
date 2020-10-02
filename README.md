@@ -4,7 +4,7 @@
 
 Tiny library that wraps other modules useful to gather information about a visitor in Javascript, such as `browser`, `timezone`, `country`, `OS`, etc...
 
-It is useful in case you want to find fast information about the user without making requests to a third party API service, but relying on the capabilities of the browser.
+It is useful in case you want to find fast information about the user without making requests to a third-party API service, but relying on the capabilities of the browser.
 
 ## How to use
 
