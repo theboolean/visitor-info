@@ -1,5 +1,5 @@
-import babel from 'rollup-plugin-babel'
-import commonjs from 'rollup-plugin-commonjs'
+import babel from '@rollup/plugin-babel'
+import commonjs from '@rollup/plugin-commonjs'
 
 /* eslint import/no-default-export: 0 */
 
@@ -8,7 +8,8 @@ export default {
   output: [
     {
       file: 'dist/bundle.cjs.js',
-      format: 'cjs'
+      format: 'cjs',
+      exports: 'default'
     },
     {
       file: 'dist/bundle.esm.js',
@@ -26,6 +27,7 @@ export default {
       include: 'node_modules/**'
     }),
     babel({
+      babelHelpers: 'bundled',
       exclude: 'node_modules/**'
     })
   ]
