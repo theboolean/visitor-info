@@ -1,3 +1,16 @@
+## [0.3.1](https://github.com/theboolean/visitor-info/compare/v0.3.0...v0.3.1) (2021-05-11)
+
+
+### chore
+
+* upgrade @rollup/plugin-commonjs ([cbf476f](https://github.com/theboolean/visitor-info/commit/cbf476f3045498c9ce2a272f7bed0fca4bbae868))
+* upgrade all transitional dependencies ([2cf2e9e](https://github.com/theboolean/visitor-info/commit/2cf2e9e3bf4e2036c413f0f4ac2e4748e24d4cde))
+* upgrade commitlint ([8870fdb](https://github.com/theboolean/visitor-info/commit/8870fdb35bef2e3c0ce0020881366288c9cd3e36))
+* upgrade eslint parser ([4993a74](https://github.com/theboolean/visitor-info/commit/4993a74836a6f03f18ec762d5d1eaf2e6013a739))
+* upgrade linter ([69ed4b0](https://github.com/theboolean/visitor-info/commit/69ed4b0c7c2c45e73b3a62b0622c0b3cb2a5cd9d))
+
+
+
 # [0.3.0](https://github.com/theboolean/visitor-info/compare/v0.2.4...v0.3.0) (2020-10-02)
 
 
