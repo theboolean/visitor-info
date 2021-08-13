@@ -1,3 +1,19 @@
+# [0.4.0](https://github.com/theboolean/visitor-info/compare/v0.3.1...v0.4.0) (2021-08-13)
+
+
+### chore
+
+* update commitlint ([ec1ee28](https://github.com/theboolean/visitor-info/commit/ec1ee28c6bb0edacd309a45d6044c363cff0e573))
+* update linter ([5bab785](https://github.com/theboolean/visitor-info/commit/5bab7856a784d424b87596156084cac365f8b763))
+* upgrade @rollup/plugin-commonjs ([d4b4cd5](https://github.com/theboolean/visitor-info/commit/d4b4cd5a988d63676abfb137102a409c29da433e))
+* upgrade all transitional dependencies ([60c6a7e](https://github.com/theboolean/visitor-info/commit/60c6a7ef86ef9af4c08754dd3196ad89d4bdea8a))
+
+### perf
+
+* get data only when function is called ([51a7912](https://github.com/theboolean/visitor-info/commit/51a7912a5d51fa6d23aa7325330516c9f46af3a2))
+
+
+
 ## [0.3.1](https://github.com/theboolean/visitor-info/compare/v0.3.0...v0.3.1) (2021-05-11)
 
 

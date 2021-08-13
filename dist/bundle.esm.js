@@ -76,16 +76,15 @@ var getResult = function getResult() {
   return results || new UAParser(navigator.userAgent).getResult();
 };
 
-timezone = getTimezone();
-countryCode = getCountryCode();
-country = getCountry();
-results = getResult();
-
 var visitorInfo = function visitorInfo() {
+  timezone = getTimezone();
+  countryCode = getCountryCode();
+  country = getCountry();
+  results = getResult();
   return _objectSpread2({
     timezone: getTimezone(),
     country: getCountry()
   }, results);
 };
 
-export default visitorInfo;
+export { visitorInfo as default };
