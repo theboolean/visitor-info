@@ -15,12 +15,12 @@ const getCountry = () =>
 
 const getResult = () => results || new UAParser(navigator.userAgent).getResult()
 
-timezone = getTimezone()
-countryCode = getCountryCode()
-country = getCountry()
-results = getResult()
-
 const visitorInfo = () => {
+  timezone = getTimezone()
+  countryCode = getCountryCode()
+  country = getCountry()
+  results = getResult()
+
   return {
     timezone: getTimezone(),
     country: getCountry(),
