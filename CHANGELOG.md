@@ -1,3 +1,18 @@
+# [0.5.0](https://github.com/theboolean/visitor-info/compare/v0.4.0...v0.5.0) (2022-01-11)
+
+
+### chore
+
+* add CI via github actions ([9c9612a](https://github.com/theboolean/visitor-info/commit/9c9612a6e387743fe4e49921025d9d2fdb7614dd))
+* [BREAKING] remove compatibility with node v10, add compatibility with v14 ([46aca84](https://github.com/theboolean/visitor-info/commit/46aca847352c99583b9c284bc7f099726f964e72))
+* remove travis config file ([460a6b3](https://github.com/theboolean/visitor-info/commit/460a6b3760eb6414ce3fad4e36a0188beb7a30c6))
+* upgrade @rollup/plugin-commonjs ([eca10c8](https://github.com/theboolean/visitor-info/commit/eca10c8e65f1e899784ae9377ea69352c021cbb7))
+* upgrade all transitional dependencies ([17aa565](https://github.com/theboolean/visitor-info/commit/17aa565d88b8e1db7385c65408dd9f0191a7a9fa))
+* upgrade commitlint ([cdceb64](https://github.com/theboolean/visitor-info/commit/cdceb64778f39bf960bf520206d362211dad4e8b))
+* upgrade eslint ([104a3a8](https://github.com/theboolean/visitor-info/commit/104a3a86f7b0d1c3d6a8012b21170bcc1f06c39b))
+
+
+
 # [0.4.0](https://github.com/theboolean/visitor-info/compare/v0.3.1...v0.4.0) (2021-08-13)
 
 
