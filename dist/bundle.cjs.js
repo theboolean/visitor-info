@@ -2,12 +2,13 @@
 
 var countryData = require('country-data');
 var momentTz = require('moment-timezone');
-var latest_json = require('moment-timezone/data/meta/latest.json');
+var zones = require('moment-timezone/data/meta/latest.json');
 var UAParser = require('ua-parser-js');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 var momentTz__default = /*#__PURE__*/_interopDefaultLegacy(momentTz);
+var zones__default = /*#__PURE__*/_interopDefaultLegacy(zones);
 var UAParser__default = /*#__PURE__*/_interopDefaultLegacy(UAParser);
 
 function ownKeys(object, enumerableOnly) {
@@ -58,7 +59,7 @@ var getTimezone = function getTimezone() {
 };
 
 var getCountryCode = function getCountryCode() {
-  return countryCode || latest_json.zones[timezone.name] && latest_json.zones[timezone.name].countries[0];
+  return countryCode || zones__default["default"][timezone.name] && zones__default["default"][timezone.name].countries[0];
 };
 
 var getCountry = function getCountry() {

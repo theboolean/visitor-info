@@ -1,6 +1,6 @@
 import { callingCountries } from 'country-data'
 import momentTz from 'moment-timezone'
-import { zones } from 'moment-timezone/data/meta/latest.json'
+import zones from 'moment-timezone/data/meta/latest.json'
 import UAParser from 'ua-parser-js'
 
 let timezone, countryCode, country, results // eslint-disable-line prefer-const
